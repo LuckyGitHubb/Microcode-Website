@@ -1,0 +1,69 @@
+{
+  "name": "microcode-software",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.20.0",
+    "@cashfreepayments/cashfree-js": "^1.0.5",
+    "@ckeditor/ckeditor5-build-classic": "^44.3.0",
+    "@ckeditor/ckeditor5-react": "^5.1.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tiptap/core": "^2.12.0",
+    "apexcharts": "^4.7.0",
+    "axios": "^1.9.0",
+    "formik": "^2.4.6",
+    "jquery": "^3.7.1",
+    "lodash-es": "^4.17.21",
+    "microcode-software": "file:",
+    "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.5.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-quill": "^2.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^4.3.1",
+    "react-simple-wysiwyg": "^3.2.2",
+    "react-toastify": "^11.0.5",
+    "redux-thunk": "^3.1.0",
+    "sitemap": "^8.0.0",
+    "uuid": "^11.1.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sitemap": "node sitemap.js",
+    "build": "npm run sitemap && react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "."
+}
