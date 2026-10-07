@@ -1,4 +1,4 @@
-export const url = "http://localhost:3300";
+export const url = "https://microcode-website.onrender.com";
 // export const url = "https://www.ns6.microcodepgmt.com";
 
 const ApiConfig = {
