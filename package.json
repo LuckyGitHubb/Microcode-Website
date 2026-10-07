@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "microcode-software": "cd microcode-software && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run microcode-software\" \"npm run backend\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "create-react-app": "^5.1.0"
+  }
+}
